@@ -13,7 +13,7 @@ defineModule(sim, list(
   timeunit = "year",
   citation = list("citation.bib"),
   documentation = list("README.txt", "caribouRSF.Rmd"),
-  reqdPkgs = list("data.table", "ggplot2", "PredictiveEcology/pemisc", "tati-micheletti/usefulFuns","reproducible"), 
+  reqdPkgs = list("reproducible", "data.table", "ggplot2", "PredictiveEcology/pemisc", "tati-micheletti/usefulFuns"), 
   parameters = rbind(
     defineParameter("predictLastYear", "logical", TRUE, NA, NA, paste0("If last year of simulation is not multiple of",
                     " predictionInterval, should it predict for the last year too?")),
